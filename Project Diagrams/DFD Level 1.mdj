@@ -1,0 +1,922 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGJoSHwZc3PkFc=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGJoSHwZs3QfCY=",
+					"_parent": {
+						"$ref": "AAAAAAGJoSHwZc3PkFc="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGJoTEO3M3sAKY=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJoTEO283qnx4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJoTEO3M3tDkM=",
+									"_parent": {
+										"$ref": "AAAAAAGJoTEO3M3sAKY="
+									},
+									"font": "Arial;13;0",
+									"left": 644,
+									"top": 202,
+									"width": 139,
+									"height": 13,
+									"text": "Flight Booking Request",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJoTEO3M3up94=",
+									"_parent": {
+										"$ref": "AAAAAAGJoTEO3M3sAKY="
+									},
+									"font": "Arial;13;0",
+									"left": 629,
+									"top": 202,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 624,
+							"top": 192,
+							"width": 169,
+							"height": 35,
+							"nameLabel": {
+								"$ref": "AAAAAAGJoTEO3M3tDkM="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGJoTEO3M3up94="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGJoUGWsc348Sw=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJoUGWsc32q1Q="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJoUGWsc35ZJI=",
+									"_parent": {
+										"$ref": "AAAAAAGJoUGWsc348Sw="
+									},
+									"font": "Arial;13;0",
+									"left": 644,
+									"top": 274,
+									"width": 170,
+									"height": 13,
+									"text": "Hotel Reservation Request",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJoUGWsc36cGc=",
+									"_parent": {
+										"$ref": "AAAAAAGJoUGWsc348Sw="
+									},
+									"font": "Arial;13;0",
+									"left": 629,
+									"top": 274,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 624,
+							"top": 264,
+							"width": 200,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGJoUGWsc35ZJI="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGJoUGWsc36cGc="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGJoUHiq84GHZY=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJoUHiqs4E+CY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGJoUHirM4Ho/M=",
+									"_parent": {
+										"$ref": "AAAAAAGJoUHiq84GHZY="
+									},
+									"model": {
+										"$ref": "AAAAAAGJoUHiqs4E+CY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 702,
+									"top": 238,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGJoUHiq84GHZY="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGJoUGWsc348Sw="
+							},
+							"tail": {
+								"$ref": "AAAAAAGJoTEO3M3sAKY="
+							},
+							"points": "688:226;688:264",
+							"nameLabel": {
+								"$ref": "AAAAAAGJoUHirM4Ho/M="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGJokDdRVN4MzE=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJokDdRFN2ptk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJokDdRVN5JqI=",
+									"_parent": {
+										"$ref": "AAAAAAGJokDdRVN4MzE="
+									},
+									"font": "Arial;13;0",
+									"left": 644,
+									"top": 370,
+									"width": 123,
+									"height": 13,
+									"text": "Car Rental Request",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJokDdRVN65Fg=",
+									"_parent": {
+										"$ref": "AAAAAAGJokDdRVN4MzE="
+									},
+									"font": "Arial;13;0",
+									"left": 629,
+									"top": 370,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 624,
+							"top": 360,
+							"width": 153,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGJokDdRVN5JqI="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGJokDdRVN65Fg="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGJokEWllOEHI8=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJokEWllOCrbk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJokEWllOFMJU=",
+									"_parent": {
+										"$ref": "AAAAAAGJokEWllOEHI8="
+									},
+									"font": "Arial;13;0",
+									"left": 644,
+									"top": 466,
+									"width": 131,
+									"height": 13,
+									"text": "Payment Processing",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJokEWllOG1zE=",
+									"_parent": {
+										"$ref": "AAAAAAGJokEWllOEHI8="
+									},
+									"font": "Arial;13;0",
+									"left": 629,
+									"top": 466,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 624,
+							"top": 456,
+							"width": 161,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGJokEWllOFMJU="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGJokEWllOG1zE="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGJokFSuFOQ/ig=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJokFSuFOO+60="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJokFSuFORGQY=",
+									"_parent": {
+										"$ref": "AAAAAAGJokFSuFOQ/ig="
+									},
+									"font": "Arial;13;0",
+									"left": 644,
+									"top": 554,
+									"width": 179,
+									"height": 13,
+									"text": "Travel Itinerary Generation",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJokFSuFOShns=",
+									"_parent": {
+										"$ref": "AAAAAAGJokFSuFOQ/ig="
+									},
+									"font": "Arial;13;0",
+									"left": 629,
+									"top": 554,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 624,
+							"top": 544,
+							"width": 209,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGJokFSuFORGQY="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGJokFSuFOShns="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGJokGmpVOeyL8=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJokGmpFOchfw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJokGmpVOfBik=",
+									"_parent": {
+										"$ref": "AAAAAAGJokGmpVOeyL8="
+									},
+									"font": "Arial;13;0",
+									"left": 644,
+									"top": 642,
+									"width": 179,
+									"height": 13,
+									"text": "Travel Booking Confirmation",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJokGmpVOgjO8=",
+									"_parent": {
+										"$ref": "AAAAAAGJokGmpVOeyL8="
+									},
+									"font": "Arial;13;0",
+									"left": 629,
+									"top": 642,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 624,
+							"top": 632,
+							"width": 209,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGJokGmpVOfBik="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGJokGmpVOgjO8="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGJokHXaVOqaBM=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJokHXaVOoJ+c="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJokHXa1Org5g=",
+									"_parent": {
+										"$ref": "AAAAAAGJokHXaVOqaBM="
+									},
+									"font": "Arial;13;0",
+									"left": 644,
+									"top": 738,
+									"width": 115,
+									"height": 13,
+									"text": "Reporting",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJokHXa1OshjQ=",
+									"_parent": {
+										"$ref": "AAAAAAGJokHXaVOqaBM="
+									},
+									"font": "Arial;13;0",
+									"left": 629,
+									"top": 738,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 624,
+							"top": 728,
+							"width": 145,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGJokHXa1Org5g="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGJokHXa1OshjQ="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGJokIEqVO2t98=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJokIEqVO047M="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJokIEqVO3xok=",
+									"_parent": {
+										"$ref": "AAAAAAGJokIEqVO2t98="
+									},
+									"font": "Arial;13;0",
+									"left": 644,
+									"top": 834,
+									"width": 179,
+									"height": 13,
+									"text": "Travel Management Reports",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJokIEqVO4n7A=",
+									"_parent": {
+										"$ref": "AAAAAAGJokIEqVO2t98="
+									},
+									"font": "Arial;13;0",
+									"left": 629,
+									"top": 834,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 624,
+							"top": 824,
+							"width": 209,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGJokIEqVO3xok="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGJokIEqVO4n7A="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGJosKeHhRgOO8=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJosKeHhReeq4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGJosKeHhRhR1w=",
+									"_parent": {
+										"$ref": "AAAAAAGJosKeHhRgOO8="
+									},
+									"model": {
+										"$ref": "AAAAAAGJosKeHhReeq4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 702,
+									"top": 321,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGJosKeHhRgOO8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGJokDdRVN4MzE="
+							},
+							"tail": {
+								"$ref": "AAAAAAGJoUGWsc348Sw="
+							},
+							"points": "688:296;688:360",
+							"nameLabel": {
+								"$ref": "AAAAAAGJosKeHhRhR1w="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGJot6kXRSfbIA=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJot6kXBSdkTg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGJot6kXRSgW1A=",
+									"_parent": {
+										"$ref": "AAAAAAGJot6kXRSfbIA="
+									},
+									"model": {
+										"$ref": "AAAAAAGJot6kXBSdkTg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 702,
+									"top": 417,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGJot6kXRSfbIA="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGJokEWllOEHI8="
+							},
+							"tail": {
+								"$ref": "AAAAAAGJokDdRVN4MzE="
+							},
+							"points": "688:392;688:456",
+							"nameLabel": {
+								"$ref": "AAAAAAGJot6kXRSgW1A="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGJot/sgxSwitI=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJot/sghSusSQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGJot/shBSxwYs=",
+									"_parent": {
+										"$ref": "AAAAAAGJot/sgxSwitI="
+									},
+									"model": {
+										"$ref": "AAAAAAGJot/sghSusSQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 702,
+									"top": 509,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGJot/sgxSwitI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGJokFSuFOQ/ig="
+							},
+							"tail": {
+								"$ref": "AAAAAAGJokEWllOEHI8="
+							},
+							"points": "688:488;688:544",
+							"nameLabel": {
+								"$ref": "AAAAAAGJot/shBSxwYs="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGJouGBNxTGzes=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJouGBNhTEqkA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGJouGBNxTHQoM=",
+									"_parent": {
+										"$ref": "AAAAAAGJouGBNxTGzes="
+									},
+									"model": {
+										"$ref": "AAAAAAGJouGBNhTEqkA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 702,
+									"top": 597,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGJouGBNxTGzes="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGJokGmpVOeyL8="
+							},
+							"tail": {
+								"$ref": "AAAAAAGJokFSuFOQ/ig="
+							},
+							"points": "688:576;688:632",
+							"nameLabel": {
+								"$ref": "AAAAAAGJouGBNxTHQoM="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGJouHXxBTUaXY=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJouHXwxTSLxs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGJouHXxRTVmMc=",
+									"_parent": {
+										"$ref": "AAAAAAGJouHXxBTUaXY="
+									},
+									"model": {
+										"$ref": "AAAAAAGJouHXwxTSLxs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 702,
+									"top": 689,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGJouHXxBTUaXY="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGJokHXaVOqaBM="
+							},
+							"tail": {
+								"$ref": "AAAAAAGJokGmpVOeyL8="
+							},
+							"points": "688:664;688:728",
+							"nameLabel": {
+								"$ref": "AAAAAAGJouHXxRTVmMc="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGJouNnNxTlTfE=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"model": {
+								"$ref": "AAAAAAGJouNnNhTjvG0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGJouNnNxTmOHQ=",
+									"_parent": {
+										"$ref": "AAAAAAGJouNnNxTlTfE="
+									},
+									"model": {
+										"$ref": "AAAAAAGJouNnNhTjvG0="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 702,
+									"top": 785,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGJouNnNxTlTfE="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGJokIEqVO2t98="
+							},
+							"tail": {
+								"$ref": "AAAAAAGJokHXaVOqaBM="
+							},
+							"points": "688:760;688:824",
+							"nameLabel": {
+								"$ref": "AAAAAAGJouNnNxTmOHQ="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJyRbSHXLvMlo=",
+							"_parent": {
+								"$ref": "AAAAAAGJoSHwZs3QfCY="
+							},
+							"font": "Arial;42;0",
+							"left": 456,
+							"top": 80,
+							"width": 553,
+							"height": 65,
+							"text": "Data Flow Diagram Level-1",
+							"horzAlign": 2,
+							"vertAlign": 5
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGJoTEO283qnx4=",
+					"_parent": {
+						"$ref": "AAAAAAGJoSHwZc3PkFc="
+					},
+					"name": "Flight Booking Request",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGJoUHiqs4E+CY=",
+							"_parent": {
+								"$ref": "AAAAAAGJoTEO283qnx4="
+							},
+							"source": {
+								"$ref": "AAAAAAGJoTEO283qnx4="
+							},
+							"target": {
+								"$ref": "AAAAAAGJoUGWsc32q1Q="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGJoUGWsc32q1Q=",
+					"_parent": {
+						"$ref": "AAAAAAGJoSHwZc3PkFc="
+					},
+					"name": "Hotel Reservation Request",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGJosKeHhReeq4=",
+							"_parent": {
+								"$ref": "AAAAAAGJoUGWsc32q1Q="
+							},
+							"source": {
+								"$ref": "AAAAAAGJoUGWsc32q1Q="
+							},
+							"target": {
+								"$ref": "AAAAAAGJokDdRFN2ptk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGJokDdRFN2ptk=",
+					"_parent": {
+						"$ref": "AAAAAAGJoSHwZc3PkFc="
+					},
+					"name": "Car Rental Request",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGJot6kXBSdkTg=",
+							"_parent": {
+								"$ref": "AAAAAAGJokDdRFN2ptk="
+							},
+							"source": {
+								"$ref": "AAAAAAGJokDdRFN2ptk="
+							},
+							"target": {
+								"$ref": "AAAAAAGJokEWllOCrbk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGJokEWllOCrbk=",
+					"_parent": {
+						"$ref": "AAAAAAGJoSHwZc3PkFc="
+					},
+					"name": "Payment Processing",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGJot/sghSusSQ=",
+							"_parent": {
+								"$ref": "AAAAAAGJokEWllOCrbk="
+							},
+							"source": {
+								"$ref": "AAAAAAGJokEWllOCrbk="
+							},
+							"target": {
+								"$ref": "AAAAAAGJokFSuFOO+60="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGJokFSuFOO+60=",
+					"_parent": {
+						"$ref": "AAAAAAGJoSHwZc3PkFc="
+					},
+					"name": "Travel Itinerary Generation",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGJouGBNhTEqkA=",
+							"_parent": {
+								"$ref": "AAAAAAGJokFSuFOO+60="
+							},
+							"source": {
+								"$ref": "AAAAAAGJokFSuFOO+60="
+							},
+							"target": {
+								"$ref": "AAAAAAGJokGmpFOchfw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGJokGmpFOchfw=",
+					"_parent": {
+						"$ref": "AAAAAAGJoSHwZc3PkFc="
+					},
+					"name": "Travel Booking Confirmation",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGJouHXwxTSLxs=",
+							"_parent": {
+								"$ref": "AAAAAAGJokGmpFOchfw="
+							},
+							"source": {
+								"$ref": "AAAAAAGJokGmpFOchfw="
+							},
+							"target": {
+								"$ref": "AAAAAAGJokHXaVOoJ+c="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGJokHXaVOoJ+c=",
+					"_parent": {
+						"$ref": "AAAAAAGJoSHwZc3PkFc="
+					},
+					"name": "Reporting",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGJouNnNhTjvG0=",
+							"_parent": {
+								"$ref": "AAAAAAGJokHXaVOoJ+c="
+							},
+							"source": {
+								"$ref": "AAAAAAGJokHXaVOoJ+c="
+							},
+							"target": {
+								"$ref": "AAAAAAGJokIEqVO047M="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGJokIEqVO047M=",
+					"_parent": {
+						"$ref": "AAAAAAGJoSHwZc3PkFc="
+					},
+					"name": "Travel Management Reports"
+				}
+			]
+		}
+	]
+}
